@@ -18,8 +18,8 @@ void setup(){
 
 // The loop routine runs over and over again forever
 void loop() {
-
   M5.update();
+  vTaskDelay(100/portTICK_PERIOD_MS);
 }
 
 // The arduino task
